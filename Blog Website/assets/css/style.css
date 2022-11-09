@@ -1,0 +1,113 @@
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+All Common styling
+Developer:  Atikur Rahman
+Author URI: https://atikrpi27.github.io/Portfolio/
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ :root {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #E9E9ED;
+}
+
+
+/*==============================================
+                Navigation
+===============================================*/
+
+.navbar {
+    height: 60px;
+    padding: 0px 30px !important;
+    background-color: #d8dbe1 !important;
+}
+
+.navbar-brand img,
+.offcanvas-title img {
+    height: 40px;
+    width: 50px;
+}
+
+.offcanvas-header {
+    display: flex;
+    background: #d8dbe1c2;
+}
+
+.navbar .offcanvas-body .navbar-nav .nav-item {
+    margin: 0px 20px;
+}
+
+.navbar .offcanvas-body .navbar-nav .nav-item {
+    background-color: #d8dbe1;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+    color: rgb(78, 78, 78);
+}
+
+.navbar .offcanvas-body .navbar-nav .nav-item:active:hover {
+    box-shadow: inset 9px 9px 16px rgb(163, 177, 198, 0.6), inset -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+.navbar .offcanvas-body .navbar-nav .nav-item a:active {
+    color: white;
+}
+
+.navbar .offcanvas-body .navbar-nav .nav-item a {
+    padding: 6px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #616161;
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+.navbar .offcanvas-body .navbar-nav .nav-item a:hover {
+    color: white;
+    background-color: #d8dbe17d;
+}
+
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #c4c8ce !important;
+}
+
+
+/*---------------------
+    Navbar Toggling
+----------------------*/
+
+.navbar-toggler {
+    border: none;
+    color: white !important;
+}
+
+.navbar-toggler.ThreeDot {
+    width: 40px;
+    margin-top: 2px;
+}
+
+.navbar-toggler svg {
+    font-size: xx-large;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+/*==============================================
+                End Navigation
+===============================================*/
